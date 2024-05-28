@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Звіти з Лабораторних робіт Вдовиченко ІП-13</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+        }
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        .header {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .header-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .labs {
+            margin: 0 auto;
+            width: 95%;
+            margin-top: 20px;
+        }
+
+        .labs-list {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .list-item {
+            display: flex;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin-right: 10px;
+            height: 50px;
+            padding: 0 15px;
+            align-items: center;
+        }
+
+        .list-item:hover {
+            background: rgb(255, 196, 196);
+        }
+
+        .list-item:last-child {
+            margin: 0;
+        }
+
+        .list-item_active {
+            background: rgb(184, 255, 155);
+        }
+
+        .list-item_active:hover {
+            background: rgb(86, 227, 30);
+        }
+
+        .list-link {
+            text-decoration: none;
+            color: #000;
+            font-size: 15px;
+        }
+
+        .list-link:hover {
+            text-decoration: underline;
+        }
+
+        /*=====================*/
+        .content {
+            display: flex;
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 20px;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .buttons {
+            flex: 0 1 25%;
+        }
+
+        .buttons-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .buttons_list-item {
+            display: flex;
+            border: 1px solid black;
+            border-radius: 20px;
+            height: 50px;
+            padding: 0 15px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .buttons_list-item:hover {
+            background-color: aquamarine;
+        }
+
+        .buttons_list-item_active {
+            background-color: aquamarine;
+        }
+
+        .buttons_list-item:last-child {
+            margin: 0;
+        }
+
+        .buttons_list-link {
+            font-size: 15px;
+
+        }
+
+        .field {
+            border: 1px solid black;
+            flex: 0 1 73%;
+            min-height: 100%;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        .photo {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__text">
+            <h1>
+                Звіти з лабораторних робіт<br />
+                з дисципліни "Web-орієнтовані технології"
+            </h1>
+            <br>
+            <h2>Студент групи ІП-13 Вдовиченко Станіслав</h2>
+        </div>
+        <img class="photo" src="../av.jpg" alt="">
+    </header>
+    <div class="labs">
+        <ul class="labs-list">
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №1</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №2</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №3</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №4</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №5</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №6</a></li>
+            <li class="list-item"><a href="" class="list-link">Лабораторна робота №7</a></li>
+            <li class="list-item"><a href="../lab8/index.html" class="list-link">Лабораторна робота №8</a></li>
+            <li class="list-item" style="background-color: turquoise;"><a href="./index.html" class="list-link">Лабораторна робота №9</a></li>
+        </ul>
+    </div>
+    <div class="main__content" style="width: 100%; display: flex; justify-content: center; margin-top: 10px;">
+     <div class="photos" style="display: flex; flex-direction: column; justify-content: center; align-content: center; max-width: 50%; gap: 10px;">
+      <img src="./img/Coursera K8FCPHY7UEL6_page-0001.jpg" alt="">
+      <img src="./img/Screenshot_9.png" alt="">
+      <img src="./img/Screenshot_1.png" alt="">
+      <img src="./img/Screenshot_2.png" alt="">
+      <img src="./img/Screenshot_3.png" alt="">
+      <img src="./img/Screenshot_4.png" alt="">
+      <img src="./img/Screenshot_5.png" alt="">
+      <img src="./img/Screenshot_6.png" alt="">
+      <img src="./img/Screenshot_7.png" alt="">
+      <img src="./img/Screenshot_8.png" alt=""> 
+     </div>
+    </div>
+</body>
+
+</html>
